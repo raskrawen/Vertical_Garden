@@ -30,7 +30,7 @@
 #include <WiFi.h>
 
 char ssid[] = "camilla-PC-Wireless";   // your network SSID (name) 
-char pass[] = "n33gvsn33gvs";   // your network password
+char pass[] = "";   // your network password
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 WiFiClient  client;
 
@@ -40,7 +40,7 @@ unsigned int temperatureFieldNumber = 1;
 
 // Counting channel details
 unsigned long counterChannelNumber = 256551;
-const char * myCounterReadAPIKey = "4TP0JZRPOARZD46J";
+const char * myCounterReadAPIKey = "";
 unsigned int counterFieldNumber = 1; 
 
 void setup() {
