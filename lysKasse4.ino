@@ -18,7 +18,7 @@ void setup()
   FastLED.addLeds<WS2812B, LED_PIN, COLOR_ORDER>(leds, NUM_LEDS_PER_STRIP);
   Serial.begin(9600);
   for (int i = 0; i < 30; i++) {
-    leds[i].setRGB(0, 255, 0); //red leds
+    leds[i].setRGB(0, 255, 0); //green leds
     FastLED.show();
     delay(50);
   }
