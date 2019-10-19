@@ -38,7 +38,7 @@ Adafruit_NeoPixel pixels(NUM_PIXELS, LED_PIN, NEO_GRB | NEO_KHZ800);
 
 
 char ssid[] = "camilla-PC-Wireless";   // your network SSID (name)
-char pass[] = "n33gvsn33gvs";   // your network password
+char pass[] = "";   // your network password
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 WiFiClient  client;
 
@@ -48,7 +48,7 @@ unsigned int temperatureFieldNumber = 1;
 
 // Counting channel details
 unsigned long counterChannelNumber = 207686;
-const char * myCounterReadAPIKey = "O6TR4DJ56135BADQ";
+const char * myCounterReadAPIKey = "";
 unsigned int counterFieldNumber = 1;
 
 void setup() {
