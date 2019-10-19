@@ -7,9 +7,9 @@ GND -- GND
 A0 -- Analog output between LDR and resistor
 */
 
-String apiKey = "3X23XXMCGT3V0QJ1";
+String apiKey = "";
 const char* ssid = "camilla-PC-Wireless";
-const char* password = "n33gvsn33gvs";
+const char* password = "";
 const char* server = "api.thingspeak.com";
 WiFiClient client;
 
